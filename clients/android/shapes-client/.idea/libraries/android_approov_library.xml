@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="android:approov_library">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/2bf0f53ee2fd2560adfb3950243645edccfabfff/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/2bf0f53ee2fd2560adfb3950243645edccfabfff/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

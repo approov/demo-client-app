@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".RequestShape">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/request_text"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_above="@+id/okhttpInterceptorReqButton"
+            android:layout_alignParentTop="true"
+            android:text="Random shape generator"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/primary_text_dark"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/okhttpInterceptorReqButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/okhttpReqButton"
+            android:layout_alignParentStart="true"
+            android:onClick="okHttpRequestShapeInterceptor"
+            android:text="OkHttp Interceptor Request" />
+
+        <Button
+            android:id="@+id/okhttpReqButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/httpconnReqButton"
+            android:layout_alignParentStart="true"
+            android:onClick="okHttpRequestShape"
+            android:text="OkHttp Request" />
+
+        <Button
+            android:id="@+id/httpconnReqButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:onClick="defaultRequestShape"
+            android:text="HttpsURLConnection Request" />
+    </RelativeLayout>
+
+</LinearLayout>

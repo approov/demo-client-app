@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="fetching">Fetching shape...</string>
+    <string name="request_incorrect">Request details incorrect. Please try again.</string>
+    <string name="server_declined">The server does not like this request. \n
+        Did you forget to register the app, \n
+        or have you been tampering with it? </string>
+    <string name="unknown_server">Unknown server error. Please try again.</string>
+    <string name="todo">This functionality is not available yet.</string>
+</resources>
