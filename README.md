@@ -1,5 +1,7 @@
 # Approov Demo
 
+> **IMPORTANT:** This repository relates to Approov 1 and has not been updated to reflect the [new features](https://approov.io/docs/v2.0/changelog/) and [usage](https://approov.io/docs/v2.0/approov-usage-documentation/) of [Approov 2](https://approov.io/docs/v2.0/approov-installation/), the latest version of Approov. We will be updating the repository soon. Meanwhile, please refer to the [guide](https://approov.io/docs/v2.0/approov-usage-documentation/#migrating-from-approov-1) for migrating from Approov 1 to Approov 2.
+
 The aim of this demo is to gently introduce you to the client-side components of Approov and show you how to integrate them into a simple app. The scenario is very simple:
 
     An existing server is running in the cloud; it has 2 end-points.
